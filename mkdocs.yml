@@ -1,6 +1,5 @@
 site_name: Fluid Power Systems
 site_description: 'Intelligent textbook on fluid power systems for technicians, integrating advanced AI, controls, data collection, and software deployment to optimize labor use, system efficiency, and sustainability'
-site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
 site_author: 'Peter Vinck, Inflow Corp.'
 repo_name: 'GitHub Repo'
 site_url: 'https://dmccreary.github.io/fluid-power-systems/'
@@ -10,12 +9,34 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - Course Description: course-description.md
+
   - Chapters:
-    - Table of Contents: index.md
-    - Introduction: 01-intro/index.md
-    - Components and Controls: 02-components-and-controls.md
+    - Table of Contents: chapters/index.md
+    - 1. Introduction: chapters/01-intro/index.md
+    - 2. Components and Controls: chapters/02-components-and-controls/index.md
+    - 3. HVAC: chapters/03-hvac/index.md
+    - 4. Vacuum: chapters/04-vacuum/index.md
+    - 5. Compressed Air: chapters/05-compressed-air/index.md
+    - 6. Cooling: chapters/06-cooling/index.md
+    - 7. Dust Collection: chapters/07-dust-collection/index.md
+    - 8. Hydraulic Systems: chapters/08-hydraulic/index.md
+    - 9. Pumping Systems: chapters/09-pumping/index.md
+    - 10. Fans: chapters/10-fan/index.md
+    - 11. Systems and Software: chapters/11-systems/index.md
+    - 12. Safety: chapters/12-safety/index.md
 
+  - Prompts:
+    - Introduction: prompts/index.md
+    - Bloom Taxonomy: prompts/01-bloom-taxonomy.md
+    - Course Description: prompts/01-course-description.md
+    - Enumerate Concepts: prompts/02-enumerate-concepts.md
+    - Concept Dependencies: prompts/03-concept-dependencies.md
+    - Concept Taxonomy: prompts/04-concept-taxonomy.md
+  
+  - MicroSims:
+    - Introduction: sims/index.md
 
+  
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
@@ -29,7 +50,7 @@ theme:
   name: material
   extra_css:
     - styles/custom.css
-  logo: img/logo.png
+  logo: img/icon.png
   # favicon: img/my-icon.png
   palette:
     primary: 'blue'

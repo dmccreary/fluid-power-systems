@@ -1,3 +1,7 @@
-# Advanced Fluid Power Systems: AI, Controls, and Sustainable Design
+# Chapter 3: HVAC Systems with AI Optimization
 
-Welcome to the website for our course on 
+- Basics of HVAC: airflow, cooling, and heating
+- Maintaining filters, coils, and ducts
+- **AI & Tech Focus:** AI-driven HVAC control for energy efficiency; software for load balancing
+- **Sustainability:** Reducing energy use with smart thermostats
+- **Lab:** Service an HVAC unit and use an AI tool to adjust settings
