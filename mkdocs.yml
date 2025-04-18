@@ -32,6 +32,7 @@ nav:
     - Enumerate Concepts: prompts/02-enumerate-concepts.md
     - Concept Dependencies: prompts/03-concept-dependencies.md
     - Concept Taxonomy: prompts/04-concept-taxonomy.md
+    - Taxonomy Assignment: prompts/05-taxonomy-assignment.md
   
   - MicroSims:
     - Introduction: sims/index.md
