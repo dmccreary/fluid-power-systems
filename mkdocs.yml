@@ -10,6 +10,12 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - Course Description: course-description.md
+  - Chapters:
+    - Table of Contents: index.md
+    - Introduction: 01-intro/index.md
+    - Components and Controls: 02-components-and-controls.md
+
+
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
