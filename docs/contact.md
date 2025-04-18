@@ -1,5 +1,6 @@
 # Contact
 
-Please contact me on [LinkedIn](https://www.linkedin.com/in/danmccreary/)
+Please contact Peter Vinck on LinkedIn
 
-Thanks! - Dan
+[Peter Vinck](https://www.linkedin.com/in/peter-vinck-0b97196/)
+

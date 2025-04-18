@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies
+1,Fluid Power Fundamentals,
+2,System Safety Principles,
+3,Tool Usage Fundamentals,
+4,Units Of Measurement,
+5,Basic Mechanical Concepts,
+6,Materials Science Fundamentals,
+7,Fluid Types,1
+8,States Of Matter,6
+9,Properties Of Water,7|8
+10,Properties Of Air,7|8
+11,Properties Of Oil,7|8
+12,Flow Fundamentals,4|7
+13,Pressure Fundamentals,4|7
+14,Energy Transfer Principles,12|13|15
+15,Basic Thermodynamics,4|8
+16,Heat Transfer Mechanisms,14|15
+17,Fluid System Components,1|7
+18,Mechanical Component Types,5
+19,Electrical Component Types,34
+20,Control Component Types,19
+21,Fluid System Schematic Symbols,17
+22,Fluid System Schematic Reading,21
+23,PPE Requirements,2
+24,OSHA Standards Overview,2
+25,System Documentation Practices,22
+26,Fluid Power Mathematics,4|12|13
+27,Force Calculations,13|26
+28,Energy Calculations,14|26
+29,Efficiency Calculations,26|28
+30,Data Collection Fundamentals,4|31
+31,Basic Computer Skills,
+32,Sensor Types,19|30
+33,Sensor Installation,32|35
+34,Basic Electronics,5
+35,Wiring Fundamentals,34
+36,Circuit Reading,35
+37,Digital vs Analog Signals,34
+38,Pump Types,17|18
+39,Pump Functions,38
+40,Pump Maintenance,39|115
+41,Fan Types,17|18
+42,Fan Functions,41
+43,Fan Maintenance,42|109|115
+44,Compressor Types,17|18
+45,Compressor Functions,44
+46,Compressor Maintenance,45|115
+47,Valve Types,17|18
+48,Valve Functions,47
+49,Valve Maintenance,48|115
+50,Filter Types,17
+51,Filter Functions,50
+52,Filter Maintenance,51|115
+53,Actuator Types,17|18
+54,Actuator Functions,53
+55,Actuator Maintenance,54|115
+56,Seal Types,6|17
+57,Seal Functions,56
+58,Seal Maintenance,57|115
+59,Line Types,6|17
+60,Line Functions,59
+61,Line Maintenance,60|115
+62,Fitting Types,6|17
+63,Fitting Installation,62|3
+64,Tools For Fittings,3|62
+65,HVAC System Overview,14|17
+66,Airflow Principles,10|12
+67,Cooling Principles,15|16
+68,Heating Principles,15|16
+69,Duct Systems,66
+70,Coil Types,16|67|68
+71,Filter Service,51|52
+72,HVAC Controls,65|111
+73,HVAC Efficiency Metrics,29|65
+74,Vacuum System Fundamentals,13|17
+75,Vacuum Pump Types,38|74
+76,Vacuum System Applications,74
+77,Seal Testing,57|115
+78,Leak Detection,13|115
+79,Compressed Air Fundamentals,10|13|17
+80,Air Pressure Regulation,13|79
+81,Air Line Installation,59|60|79
+82,Air Tool Requirements,79
+83,Air System Efficiency,29|79
+84,Compressed Air Quality Standards,24|79
+85,Cooling Water Fundamentals,9|16|17
+86,Cooling Tower Operations,67|85
+87,Water Treatment Principles,9|85
+88,Corrosion Prevention,6|87
+89,Scale Prevention,87
+90,Water Quality Parameters,9|30
+91,Dust Collection Fundamentals,10|17|66
+92,Filter Media Types,50|91
+93,Airflow Balancing,66|91
+94,Combustible Dust Safety,2|91
+95,NFPA Standards,24|94
+96,Hydraulic System Fundamentals,11|13|17
+97,Hydraulic Fluid Types,11|96
+98,Hydraulic Cylinder Service,53|55|96
+99,Hydraulic Pump Service,38|40|96
+100,Hydraulic Control Valves,47|49|96
+101,Pumping System Fundamentals,9|17|38|39
+102,Pump Performance Curves,39|26|101
+103,Pump Installation Procedures,40|101
+104,Cavitation Prevention,101
+105,Water Hammer Prevention,101
+106,Fan System Fundamentals,17|41|42
+107,Belt Maintenance,43|106
+108,Blade Inspection,43|106
+109,Vibration Principles,5|18
+110,Noise Reduction Techniques,106|109
+111,PLC Basics,19|31
+112,Control Panel Components,19|111
+113,Control Programming Fundamentals,31|111
+114,Input/Output Devices,19|37|111
+115,Troubleshooting Methodologies,17|22
+116,Diagnostic Tool Usage,3|115
+117,System Testing Procedures,115
+118,PM Schedules,115|177
+119,Work Order Management,31|118
+120,Parts Inventory Management,31|119
+121,Energy Auditing,28|29|159
+122,Lifecycle Cost Analysis,26|29|121
+123,AI Fundamentals,31
+124,Machine Learning Basics,123
+125,Data Types,30|123
+126,Data Collection Methods,30|32
+127,Data Transmission Methods,30|36
+128,Data Storage Systems,30|31
+129,Dashboard Interpretation,30|128|180
+130,IoT Fundamentals,31|32
+131,IoT Sensors,32|130
+132,Wireless Communication Protocols,130
+133,Network Security Basics,31|132
+134,Cloud Computing Fundamentals,31|128
+135,Edge Computing Fundamentals,31|134
+136,Control System Architecture,20|111|130
+137,Real-Time Monitoring,32|126|130
+138,Data Analysis Methods,30|123
+139,Predictive Analytics,124|138
+140,Fault Detection Algorithms,115|124
+141,SCADA Systems,130|136|137
+142,CMMS Software,31|119|120
+143,Mobile App Integration,31|130
+144,Building Management Systems (BMS),65|72|73|130|136
+145,Energy Management Systems (EMS),28|29|121|136
+146,Digital Twin Concepts,123|134|165|194
+147,VFD Technology,19|38|41
+148,Motor Control Methods,19|20|147
+149,Smart Valve Technology,47|48|130
+150,Smart Thermostat Integration,68|72|130
+151,Automated Sequencing,113|136
+152,System Optimization Methods,29|139|173
+153,Maintenance Planning With AI,118|123|139
+154,Predictive Maintenance Implementation,118|139|153
+155,Diagnostics Using Machine Learning,115|124|140
+156,Root Cause Analysis Using Data,115|138|140
+157,Pattern Recognition In System Data,124|138
+158,Anomaly Detection,138|157
+159,Energy Efficiency Metrics,28|29
+160,Labor Efficiency Metrics,30|119
+161,Sustainability Metrics,121|159|162
+162,Carbon Footprint Calculation,28|159
+163,Water Conservation Methods,85|87|159
+164,Energy Recovery Techniques,14|28|159
+165,System Design Principles,17|25|29
+166,Control Integration Planning,20|136|165
+167,Sensor Network Design,32|130|137
+168,Data Architecture Planning,125|128|134
+169,Alert System Configuration,137|140|141
+170,Maintenance Protocol Development,118|154|177
+171,Failure Mode Analysis,115|117|155
+172,System Reliability Assessment,29|117|171
+173,Performance Benchmarking,29|117|159|160
+174,Green Certification Requirements,159|161|162
+175,Compliance Monitoring Methods,24|95|137
+176,Resource Optimization Techniques,29|152|159|160|161
+177,Condition-Based Maintenance,115|117|137
+178,Remote System Management,130|136|137|141
+179,Automated Reporting,31|142|180
+180,Visualization Tools,31|138
+181,Team Communication Platforms,31|179
+182,System Documentation Standards,25|165
+183,Change Management Practices,119|197
+184,Total Productive Maintenance (TPM),118|160|196
+185,Industry 4.0 Integration,123|130|136|185
+186,Digital Transformation Roadmaps,123|134|185
+187,Smart Factory Concepts,130|134|136|185
+188,Advanced System Integration,136|166|185
+189,Mixed System Optimization,65|79|85|91|96|101|106|152
+190,Multi-Parameter Optimization,139|152|176
+191,Scenario Planning With AI,124|152|192
+192,Decision Support Systems,123|138|180
+193,Virtual Commissioning Methods,146|152|194
+194,Simulation Based Training,123|180
+195,AR/VR Maintenance Applications,123|180|194
+196,Continuous Improvement Methodologies,152|173|184
+197,Innovation Management,183|196
+198,Risk Assessment Protocols,2|171|172
+199,Future Technology Trends,123|185|186|187
+200,Complete System Design Integration,165|166|167|168|188|189

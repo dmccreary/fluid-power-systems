@@ -1,22 +1,3 @@
-# Course Description
-
-!!! prompt
-    Analyze the course description at 01-course-description.md and rewrite
-    it using the 2001 Bloom’s Taxonomy.
-
-    The six levels are:
-
-    1. remember
-    2. understand
-    3. apply
-    4. analyze
-    5. evaluate
-    6. create
-
-## Response
-
-I'll rewrite the course description using Bloom's Taxonomy to structure the learning objectives and course content. This will help align the curriculum with recognized educational standards for cognitive development.
-
 # Advanced Fluid Power Systems: AI, Controls, and Sustainable Design
 
 ## Course Description
