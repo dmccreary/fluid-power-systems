@@ -33,6 +33,7 @@ nav:
     - Concept Dependencies: prompts/03-concept-dependencies.md
     - Concept Taxonomy: prompts/04-concept-taxonomy.md
     - Taxonomy Assignment: prompts/05-taxonomy-assignment.md
+    - MicroSims: prompts/06-microsims.md
   
   - MicroSims:
     - Introduction: sims/index.md
