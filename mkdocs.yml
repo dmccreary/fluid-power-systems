@@ -1,0 +1,61 @@
+site_name: Fluid Power Systems
+site_description: 'Intelligent textbook on fluid power systems for technicians, integrating advanced AI, controls, data collection, and software deployment to optimize labor use, system efficiency, and sustainability'
+site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_author: 'Peter Vinck, Inflow Corp.'
+repo_name: 'GitHub Repo'
+site_url: 'https://dmccreary.github.io/fluid-power-systems/'
+repo_url: 'https://github.com/dmccreary/fluid-power-systems'
+edit_uri: 'blob/master/docs'
+
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+  - Glossary: glossary.md
+  - How We Built This Site: how-we-built-this-site.md
+  - References: references.md
+  - Feedback: feedback.md
+  - License: license.md
+  - Contact: contact.md
+ 
+# CoderDojo Microsite Standards from here down
+
+theme:
+  name: material
+  extra_css:
+    - styles/custom.css
+  logo: img/logo.png
+  # favicon: img/my-icon.png
+  palette:
+    primary: 'blue'
+    accent: 'orange'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    # this adds the prev and next icons in the footer
+    - navigation.footer
+    - content.action.edit
+plugins:
+  - search
+  - social
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
+extra_css:
+   - css/extra.css
+extra_javascript:
+   - js/extra.js
+#extra:
+#  analytics:
+#    provider: google
+    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
+#    property: G-XXXX
