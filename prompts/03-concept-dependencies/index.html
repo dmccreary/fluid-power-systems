@@ -12,7 +12,7 @@
         <meta name="author" content="Peter Vinck, Inflow Corp.">
       
       
-        <link rel="canonical" href="https://dmccreary.github.io/fluid-power-systems/prompts/01-course-description/">
+        <link rel="canonical" href="https://dmccreary.github.io/fluid-power-systems/prompts/03-concept-dependencies/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>Course Description - Fluid Power Systems</title>
+        <title>Concept Dependencies - Fluid Power Systems</title>
       
     
     
@@ -69,11 +69,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Course Description - Fluid Power Systems" >
+        <meta  property="og:title"  content="Concept Dependencies - Fluid Power Systems" >
       
         <meta  property="og:description"  content="DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial" >
       
-        <meta  property="og:image"  content="https://dmccreary.github.io/fluid-power-systems/assets/images/social/prompts/01-course-description.png" >
+        <meta  property="og:image"  content="https://dmccreary.github.io/fluid-power-systems/assets/images/social/prompts/03-concept-dependencies.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -81,15 +81,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://dmccreary.github.io/fluid-power-systems/prompts/01-course-description/" >
+        <meta  property="og:url"  content="https://dmccreary.github.io/fluid-power-systems/prompts/03-concept-dependencies/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Course Description - Fluid Power Systems" >
+        <meta  name="twitter:title"  content="Concept Dependencies - Fluid Power Systems" >
       
         <meta  name="twitter:description"  content="DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial" >
       
-        <meta  name="twitter:image"  content="https://dmccreary.github.io/fluid-power-systems/assets/images/social/prompts/01-course-description.png" >
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/fluid-power-systems/assets/images/social/prompts/03-concept-dependencies.png" >
       
     
     
@@ -110,7 +110,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#course-description" class="md-skip">
+        <a href="#concept-dependencies" class="md-skip">
           Skip to content
         </a>
       
@@ -145,7 +145,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Course Description
+              Concept Dependencies
             
           </span>
         </div>
@@ -492,23 +492,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#response" class="md-nav__link">
-    <span class="md-ellipsis">
-      Response
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -523,7 +506,7 @@
 
 
   
-    <a href="https://github.com/dmccreary/fluid-power-systems/blob/master/docs/prompts/01-course-description.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/dmccreary/fluid-power-systems/blob/master/docs/prompts/03-concept-dependencies.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -531,268 +514,21 @@
   
 
 
-<h1 id="course-description">Course Description</h1>
+<h1 id="concept-dependencies">Concept Dependencies</h1>
 <div class="admonition prompt">
 <p class="admonition-title">Prompt</p>
-<p>Analyze the course description at 01-course-description.md and rewrite
-it using the 2001 Bloom’s Taxonomy.</p>
-<p>The six levels are:</p>
+<p>The goal of this task is to create a learning dependency graph.</p>
+<p>In the project knowledge area there is a CSV file called concept-list.csv of concepts in a course on Fluid Power Systems. Please use this CSV file of 200 concepts for the next step.</p>
+<p>Please create a fully connected concept dependency graph for the concepts in this course. In this step, for each Concept in the CSV file, create a new list of other concepts on which it depends. If a concept depends on a specific concept that is not listed, then we will need to add it as a new concept. This will help us determine the teaching order of the Concepts.</p>
+<p>Return the new list as a CSV file using the following format:</p>
 <ol>
-<li>remember</li>
-<li>understand</li>
-<li>apply</li>
-<li>analyze</li>
-<li>evaluate</li>
-<li>create</li>
+<li>The first column in the CSV file is a ConceptID you assigned in the list above.</li>
+<li>The second column is the ConceptLabel</li>
+<li>The third column is called Dependencies. It's format is a pipe-delimited list of the Concept IDs that the concept depends upon.</li>
 </ol>
+<p>Check your results to make sure that all concepts are connected to at least one other concept.</p>
+<p>Foundation Concepts are concepts that have no dependant concepts in this set. They have an empty third column of Dependencies.</p>
 </div>
-<h2 id="response">Response</h2>
-<p>I'll rewrite the course description using Bloom's Taxonomy to structure the learning objectives and course content. This will help align the curriculum with recognized educational standards for cognitive development.</p>
-<h1 id="advanced-fluid-power-systems-ai-controls-and-sustainable-design">Advanced Fluid Power Systems: AI, Controls, and Sustainable Design</h1>
-<h2 id="course-description_1">Course Description</h2>
-<p>This course equips technicians with skills to install, maintain, and optimize fluid power systems (HVAC, vacuum, compressed air, cooling water, dust collection, hydraulics, pumping, and fans) while leveraging artificial intelligence (AI), advanced controls, data collection, and software tools. Students will progress through all six levels of Bloom's Taxonomy, developing cognitive skills from basic recall to complex creation of optimized systems. Through hands-on labs, software simulations, and real-world scenarios, students will prepare for roles in smart, eco-conscious industries.</p>
-<h2 id="learning-objectives">Learning Objectives</h2>
-<p>By the end of the course, students will be able to:</p>
-<p><strong>Remember</strong>
-- Identify the major components of fluid power systems
-- Recall safety protocols for working with high-pressure systems
-- List industry standards relevant to fluid power systems
-- Identify basic AI and control system components</p>
-<p><strong>Understand</strong>
-- Explain the principles of operation for various fluid power systems
-- Describe how AI uses historical data to predict system issues
-- Interpret data from sensors and monitoring systems
-- Explain the relationship between system adjustments and energy efficiency</p>
-<p><strong>Apply</strong>
-- Install and connect system components according to specifications
-- Deploy software tools for system monitoring and maintenance
-- Implement AI-driven controls to optimize system performance
-- Apply troubleshooting procedures to identify system issues</p>
-<p><strong>Analyze</strong>
-- Diagnose complex system problems using data-driven approaches
-- Differentiate between mechanical, electrical, and control-related issues
-- Examine sensor data to determine system efficiency and health
-- Compare traditional and AI-enhanced maintenance approaches</p>
-<p><strong>Evaluate</strong>
-- Assess system performance against industry benchmarks
-- Justify maintenance decisions based on data analysis
-- Critique system designs for labor efficiency and sustainability
-- Determine optimal settings for energy conservation</p>
-<p><strong>Create</strong>
-- Design integrated fluid power systems with AI and control elements
-- Develop custom monitoring solutions for specific applications
-- Construct sustainable system upgrades that reduce resource consumption
-- Formulate predictive maintenance schedules based on AI analysis</p>
-<h2 id="prerequisites">Prerequisites</h2>
-<ul>
-<li>Basic mechanical aptitude (familiarity with tools and equipment)</li>
-<li>High school-level math (algebra and measurements)</li>
-<li>Basic computer skills (e.g., using apps or spreadsheets)</li>
-<li>No prior engineering or AI knowledge required</li>
-</ul>
-<h2 id="course-outline">Course Outline</h2>
-<h3 id="week-1-introduction-to-fluid-power-systems-and-ai">Week 1: Introduction to Fluid Power Systems and AI</h3>
-<p><strong>Remember</strong>
-- Identify core fluid power system types and components
-- Recognize the role of AI in modern industrial systems</p>
-<p><strong>Understand</strong>
-- Describe the basic principles of fluids (water, oil, air)
-- Explain how AI uses historical data for prediction</p>
-<p><strong>Apply</strong>
-- Use basic monitoring tools to observe system behavior</p>
-<p><strong>Lab:</strong> Explore a fluid power system and a demo AI dashboard</p>
-<h3 id="week-2-system-components-and-smart-controls">Week 2: System Components and Smart Controls</h3>
-<p><strong>Remember</strong>
-- Identify pumps, fans, compressors, valves, and filters
-- Recall sensor types and their functions</p>
-<p><strong>Understand</strong>
-- Explain component relationships within systems
-- Describe how sensors collect real-time performance data</p>
-<p><strong>Apply</strong>
-- Connect sensors to system components
-- Interpret basic sensor readings</p>
-<p><strong>Lab:</strong> Disassemble a pump, connect a sensor, and view data on a tablet/app</p>
-<h3 id="week-3-hvac-systems-with-ai-optimization">Week 3: HVAC Systems with AI Optimization</h3>
-<p><strong>Remember</strong>
-- Identify HVAC system components
-- List common HVAC maintenance tasks</p>
-<p><strong>Understand</strong>
-- Explain airflow, cooling, and heating principles
-- Describe how AI optimizes HVAC operations</p>
-<p><strong>Apply</strong>
-- Perform basic HVAC maintenance procedures
-- Use AI tools to adjust system settings</p>
-<p><strong>Analyze</strong>
-- Examine energy consumption patterns</p>
-<p><strong>Lab:</strong> Service an HVAC unit and use an AI tool to adjust settings</p>
-<h3 id="week-4-vacuum-systems-and-data-driven-maintenance">Week 4: Vacuum Systems and Data-Driven Maintenance</h3>
-<p><strong>Remember</strong>
-- Identify vacuum system components
-- Recall common vacuum system issues</p>
-<p><strong>Understand</strong>
-- Explain vacuum principles and industrial applications
-- Describe how AI analyzes pressure data</p>
-<p><strong>Apply</strong>
-- Test seals and detect leaks
-- Implement maintenance based on AI recommendations</p>
-<p><strong>Analyze</strong>
-- Diagnose vacuum system inefficiencies using data</p>
-<p><strong>Lab:</strong> Test a vacuum system and interpret AI-generated maintenance alerts</p>
-<h3 id="week-5-compressed-air-systems-and-efficiency">Week 5: Compressed Air Systems and Efficiency</h3>
-<p><strong>Remember</strong>
-- Identify compressor types and components
-- List common air leak sources</p>
-<p><strong>Understand</strong>
-- Explain pressure regulation principles
-- Describe how sensors detect compressed air leaks</p>
-<p><strong>Apply</strong>
-- Set up compressors and maintain air lines
-- Use AI tools to locate system leaks</p>
-<p><strong>Analyze</strong>
-- Analyze pressure data to identify system inefficiencies</p>
-<p><strong>Evaluate</strong>
-- Justify repair priorities based on data analysis</p>
-<p><strong>Lab:</strong> Troubleshoot an air system with an AI diagnostic tool</p>
-<h3 id="week-6-cooling-water-systems-and-smart-monitoring">Week 6: Cooling Water Systems and Smart Monitoring</h3>
-<p><strong>Remember</strong>
-- Identify cooling system components
-- Recognize signs of corrosion and scaling</p>
-<p><strong>Understand</strong>
-- Explain heat transfer principles in cooling systems
-- Describe how IoT sensors track water quality</p>
-<p><strong>Apply</strong>
-- Perform cooling tower inspection and cleaning
-- Deploy water quality monitoring systems</p>
-<p><strong>Analyze</strong>
-- Interpret water quality data to predict system issues</p>
-<p><strong>Evaluate</strong>
-- Assess system efficiency against benchmarks</p>
-<p><strong>Lab:</strong> Inspect a cooling system and use software to analyze water data</p>
-<h3 id="week-7-dust-collection-systems-and-automation">Week 7: Dust Collection Systems and Automation</h3>
-<p><strong>Remember</strong>
-- Identify dust collection system components
-- Recall safety protocols for combustible dust</p>
-<p><strong>Understand</strong>
-- Explain airflow principles in dust collection
-- Describe automated filter cleaning processes</p>
-<p><strong>Apply</strong>
-- Maintain fans, filters, and ductwork
-- Implement AI controls for system operation</p>
-<p><strong>Analyze</strong>
-- Analyze airflow data to optimize system performance</p>
-<p><strong>Evaluate</strong>
-- Assess safety compliance of system operations</p>
-<p><strong>Lab:</strong> Service a dust collector and adjust settings via a control panel</p>
-<h3 id="week-8-hydraulic-systems-and-predictive-maintenance">Week 8: Hydraulic Systems and Predictive Maintenance</h3>
-<p><strong>Remember</strong>
-- Identify hydraulic system components
-- Recall fluid types and specifications</p>
-<p><strong>Understand</strong>
-- Explain hydraulic pressure principles
-- Describe how AI predicts component wear</p>
-<p><strong>Apply</strong>
-- Perform fluid checks and seal replacements
-- Implement predictive maintenance schedules</p>
-<p><strong>Analyze</strong>
-- Diagnose hydraulic system issues using data patterns</p>
-<p><strong>Evaluate</strong>
-- Justify fluid selection based on environmental impact</p>
-<p><strong>Lab:</strong> Service a hydraulic cylinder and review AI maintenance logs</p>
-<h3 id="week-9-pumping-systems-and-real-time-controls">Week 9: Pumping Systems and Real-Time Controls</h3>
-<p><strong>Remember</strong>
-- Identify pump types and components
-- Recognize signs of cavitation</p>
-<p><strong>Understand</strong>
-- Explain flow and pressure relationships
-- Describe how AI optimizes pump speed</p>
-<p><strong>Apply</strong>
-- Install and align pumps properly
-- Implement real-time monitoring solutions</p>
-<p><strong>Analyze</strong>
-- Analyze flow data to identify inefficiencies</p>
-<p><strong>Evaluate</strong>
-- Assess pump performance against specifications</p>
-<p><strong>Create</strong>
-- Develop custom pump control parameters</p>
-<p><strong>Lab:</strong> Install a pump and use a control app to adjust flow</p>
-<h3 id="week-10-fan-systems-and-smart-integration">Week 10: Fan Systems and Smart Integration</h3>
-<p><strong>Remember</strong>
-- Identify fan types and components
-- Recall noise reduction techniques</p>
-<p><strong>Understand</strong>
-- Explain fan laws and vibration principles
-- Describe how AI analyzes vibration data</p>
-<p><strong>Apply</strong>
-- Perform belt replacement and blade inspection
-- Deploy vibration monitoring systems</p>
-<p><strong>Analyze</strong>
-- Diagnose balance issues through data analysis</p>
-<p><strong>Evaluate</strong>
-- Assess energy efficiency of fan operations</p>
-<p><strong>Create</strong>
-- Design noise reduction solutions</p>
-<p><strong>Lab:</strong> Balance a fan and use software to monitor performance</p>
-<h3 id="week-11-system-optimization-and-software-deployment">Week 11: System Optimization and Software Deployment</h3>
-<p><strong>Remember</strong>
-- Recall system integration principles
-- Identify software tools for system monitoring</p>
-<p><strong>Understand</strong>
-- Explain how AI combines historical and live data
-- Describe lifecycle analysis concepts</p>
-<p><strong>Apply</strong>
-- Deploy SCADA and CMMS software
-- Implement optimization techniques</p>
-<p><strong>Analyze</strong>
-- Examine system interactions to identify inefficiencies</p>
-<p><strong>Evaluate</strong>
-- Assess labor utilization and energy consumption</p>
-<p><strong>Create</strong>
-- Develop integrated monitoring dashboards</p>
-<p><strong>Lab:</strong> Optimize a mixed system using AI software and controls</p>
-<h3 id="week-12-safety-standards-sustainability-and-final-project">Week 12: Safety, Standards, Sustainability, and Final Project</h3>
-<p><strong>Remember</strong>
-- Recall industry standards and regulations
-- Identify green certification requirements</p>
-<p><strong>Understand</strong>
-- Explain compliance monitoring principles
-- Describe sustainability metrics</p>
-<p><strong>Apply</strong>
-- Implement safety protocols in system operations
-- Deploy compliance tracking tools</p>
-<p><strong>Analyze</strong>
-- Examine systems for compliance gaps</p>
-<p><strong>Evaluate</strong>
-- Assess overall system sustainability</p>
-<p><strong>Create</strong>
-- Design and optimize a complete fluid power system using AI tools
-- Create a comprehensive maintenance plan integrating all course concepts</p>
-<p><strong>Final Project:</strong> Design and optimize a fluid power system using AI tools, controls, and data collection; present labor and sustainability benefits</p>
-<h2 id="assessment-and-grading">Assessment and Grading</h2>
-<ul>
-<li>Class Participation and Labs: 25%</li>
-<li>Weekly Hands-On and Software Assignments: 25%</li>
-<li>AI and Controls Exercises: 20% (e.g., using monitoring apps or dashboards)</li>
-<li>Final Project: 20% (system design with AI/controls integration)</li>
-<li>Final Skills Test: 10% (troubleshoot with AI and control tools)</li>
-</ul>
-<h2 id="required-materials">Required Materials</h2>
-<ul>
-<li>Textbook: Fluid Power Basics by Jay F. Hooper (or similar technician guide)</li>
-<li>PPE: safety glasses, gloves, ear protection</li>
-<li>Basic toolkit: wrenches, screwdrivers, multimeter</li>
-<li>Access to AI-enabled software (e.g., free CMMS apps, IoT demo tools, or instructor-provided platforms)</li>
-<li>Tablet or laptop for accessing control dashboards (optional, provided by program if needed)</li>
-</ul>
-<h2 id="blooms-taxonomy-integration-benefits">Bloom's Taxonomy Integration Benefits</h2>
-<p>This revised course structure explicitly integrates all levels of Bloom's Taxonomy:</p>
-<ul>
-<li><strong>Remember and Understand</strong>: Foundation phases build knowledge of components, principles, and terminology</li>
-<li><strong>Apply</strong>: Hands-on labs and software deployment develop practical skills</li>
-<li><strong>Analyze</strong>: Data interpretation activities build diagnostic abilities</li>
-<li><strong>Evaluate</strong>: Performance assessment exercises develop critical thinking about system efficiency</li>
-<li><strong>Create</strong>: The final project and optimization exercises cultivate design thinking and innovation</li>
-</ul>
-<p>By progressing through these cognitive levels, students develop both technical competence and higher-order thinking skills essential for adapting to evolving technologies in the fluid power industry.</p>
 
 
 
