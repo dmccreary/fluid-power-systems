@@ -34,6 +34,8 @@ nav:
     - Concept Taxonomy: prompts/04-concept-taxonomy.md
     - Taxonomy Assignment: prompts/05-taxonomy-assignment.md
     - MicroSims: prompts/06-microsims.md
+    - Chapter Prompt: prompts/07-chapter-prompt.md
+    - Pascal's Law: prompts/08-pascals-law.md
   
   - MicroSims:
     - Introduction: sims/index.md
